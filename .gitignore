@@ -1,3 +1,4 @@
-/.bundle
-/vendor/bundle
-/db/
+# 20130417 test_schema
+/databases/test_schema/.bundle
+/databases/test_schema/vendor/bundle
+

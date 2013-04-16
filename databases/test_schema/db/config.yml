@@ -1,0 +1,40 @@
+development:
+   adapter: mysql2
+   encoding: utf8
+   reconnect: false
+   database: 
+   pool: 5
+   username: sysadm
+   password: <%= ENV['DB_PASSWORD'] %>
+   host: 
+
+staging:
+   adapter: mysql2
+   encoding: utf8
+   reconnect: false
+   database: 
+   pool: 5
+   username: sysadm
+   password: <%= ENV['DB_PASSWORD'] %>
+   host: 
+
+test:
+   adapter: mysql2
+   encoding: utf8
+   reconnect: false
+   database: 
+   pool: 5
+   username: sysadm
+   password: <%= ENV['DB_PASSWORD'] %>
+   host: 
+
+production:
+   adapter: mysql2
+   encoding: utf8
+   reconnect: false
+   database: 
+   pool: 5
+   username: sysadm
+   password: <%= ENV['DB_PASSWORD'] %>
+   host: 
+
